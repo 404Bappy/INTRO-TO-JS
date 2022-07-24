@@ -12,10 +12,10 @@ var totalPrice = (eggPrice + onionPrice);
 var difference = (onionPrice - eggPrice);
 
 //multiplication within 2 variable
-var eggPriceMultiplication = eggPrice * eggQuantity ;
+var eggPriceMultiplication = eggPrice * eggQuantity;
 
 //divition within 2 variable
-var ballQuantity = moneyAvailable / ballPrice ;
+var ballQuantity = moneyAvailable / ballPrice;
 
 
 console.log(onionPrice);
@@ -27,4 +27,18 @@ console.log(eggPriceMultiplication);
 console.log(ballQuantity);
 
 
+// special edition
 
+var firstNumber = 0.1;
+var secondNumber = 0.2;
+var total = firstNumber + secondNumber;
+console.log(parseFloat(total.toFixed(1)));
+
+// modulus
+
+var mango = 7;
+var hungryMan = 2;
+var remaining = mango % hungryMan;
+var deviding = mango / hungryMan;
+console.log(remaining);
+console.log(deviding);
