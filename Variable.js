@@ -25,3 +25,14 @@ var numOfSlices = 8;
 
 //Under the numOfSlices variable, use console.log() to print the value saved to favoriteFood.-->On the following line, use console.log() to print the value saved to numOfSlices.
 console.log(favoriteFood , numOfSlices);
+
+
+//////Let Variable /////////
+
+//Create a let variable called changeMe and set it equal to the boolean true.//
+let changeMe = true;
+
+/*On the line after changeMe is declared, set the value of changeMe to be the boolean false.
+To check if changeMe was reassigned, log the value saved to changeMe to the console.*/
+changeMe = false;
+console.log(changeMe);
