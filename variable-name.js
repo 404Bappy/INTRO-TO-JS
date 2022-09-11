@@ -16,4 +16,15 @@ var myOfficeAddress = "mirpur Dhaka"
 
 var PIE = 3.1415;
 
-var 
+
+               ///// CONST VARIABLE ///
+
+const carId = 42;
+const myName;     ///error
+
+
+
+               ///// Let /////
+
+
+
