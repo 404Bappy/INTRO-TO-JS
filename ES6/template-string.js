@@ -10,4 +10,11 @@ this is 3rd line
 this is fourthline
 this is 5th line
 `
-console.log(multiLineNew);
+const count = 5;
+const old = '<h3 class="friend-Name">Friend-5</h3>'
+const old2 = '<h3 class="friend-Name">Friend-' + count + '</h3>'
+const new1 = `<h3 class="friend-Name">Friend-${count} </h3>`
+
+
+
+console.log(new1);
