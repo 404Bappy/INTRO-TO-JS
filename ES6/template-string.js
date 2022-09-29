@@ -16,5 +16,8 @@ const old2 = '<h3 class="friend-Name">Friend-' + count + '</h3>'
 const new1 = `<h3 class="friend-Name">Friend-${count} </h3>`
 
 
-
-console.log(new1);
+const firstName = 'Arafat';
+const lastName = 'Bappy';
+//const fullName = firstName + ' ' + lastName
+ const fullName = `${firstName} ${lastName}`;
+console.log(fullName);
