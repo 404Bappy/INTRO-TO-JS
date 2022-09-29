@@ -14,5 +14,5 @@ const sum1 = add1(15, 17);
 const sum2 = add2(15, 17);
 const sum3 = add3(15, 17);
 
-console.log(sum1, sum2);
+console.log(sum1, sum2, sum3);
  
