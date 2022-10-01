@@ -11,3 +11,15 @@ console.log(phone);
 console.log(phone);
 console.log(phone);
 console.log(phone);
+
+
+const company = {Name:'GP', CEO: {id: 1, name: 'ajmol', food: 'Fuchka'},
+web: {work: 'website development ', employee: 22, framework: 'react'} 
+ ;}
+
+ //const work = company.web.work;
+ //const framework = company.web.framework;
+
+
+ const {work, framework} = company.web;
+ const {food} = company.CEO;
