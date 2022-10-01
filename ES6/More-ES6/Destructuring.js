@@ -14,8 +14,15 @@ console.log(phone);
 
 
 const company = {Name:'GP', CEO: {id: 1, name: 'ajmol', food: 'Fuchka'},
-web: {work: 'website development ', employee: 22, framework: 'react'} 
- ;}
+web: {work: 'website development ',
+ employee: 22, 
+ framework: 'react', 
+ tech: {
+     first: 'html', 
+     second: 'css', 
+     third: 'js'}
+} 
+ };
 
  //const work = company.web.work;
  //const framework = company.web.framework;
@@ -23,3 +30,6 @@ web: {work: 'website development ', employee: 22, framework: 'react'}
 
  const {work, framework} = company.web;
  const {food} = company.CEO;
+
+ const{second, third}= company.web.tech;
+ 
