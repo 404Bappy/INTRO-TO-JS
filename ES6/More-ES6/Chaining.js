@@ -14,3 +14,10 @@ console.log(p,q);
 const [best , faltu] = [34, 57];
 
 console.log(best, faltu);
+
+
+const {sky, color, money} = {sky: 'blue', spol: 'mati', color: 'red'}
+
+
+////Chaining ///
+
