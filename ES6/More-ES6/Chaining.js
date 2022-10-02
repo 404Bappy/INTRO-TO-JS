@@ -8,3 +8,9 @@ console.log(b);
 
 const [p, q] = [23, 40, 90, 80, 70];
 console.log(p,q);
+
+
+
+const [best , faltu] = [34, 57];
+
+console.log(best, faltu);
