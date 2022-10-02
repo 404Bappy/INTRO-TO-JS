@@ -8,9 +8,16 @@ function doubleOld(number){
 
 const doubleIt =number => number *2;
 
-for(const number of numbers){
+for(const number of number){
     const result = number*2;
     output.push(result);
 }
 
+console.log(output);
+
+//loop korsi
+//element diye function call korsi
+//result ke arrray er moddhhe push korsi
+
+const Output = number.map(doubleIt);
 console.log(output);
